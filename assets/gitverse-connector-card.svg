@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 520" role="img" aria-labelledby="title desc">
+  <title id="title">GitVerse Connector for Codex</title>
+  <desc id="desc">Локальный плагин для связи Codex и GitVerse</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#061a21"/>
+      <stop offset="1" stop-color="#082d30"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#36e6dc"/>
+      <stop offset="1" stop-color="#b3f63d"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="11" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#1b4b50" stroke-width="1" opacity=".68"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="520" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="520" rx="28" fill="url(#grid)"/>
+  <circle cx="1085" cy="105" r="155" fill="#26d9cb" opacity=".11"/>
+  <circle cx="1150" cy="405" r="175" fill="#b3f63d" opacity=".10"/>
+  <circle cx="980" cy="260" r="105" fill="#3b69d9" opacity=".14"/>
+
+  <g transform="translate(72 70)">
+    <rect width="132" height="132" rx="34" fill="#0d3239" stroke="url(#accent)" stroke-width="5"/>
+    <path d="M35 78h19l13-28 20 55 14-30h-8" fill="none" stroke="url(#accent)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="31" cy="78" r="8" fill="#b3f63d"/>
+    <circle cx="105" cy="75" r="8" fill="#36e6dc"/>
+  </g>
+
+  <text x="72" y="248" fill="#b3f63d" font-family="Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4">LOCAL CODEX PLUGIN</text>
+  <text x="72" y="334" fill="#f4fbff" font-family="Arial, sans-serif" font-size="66" font-weight="800" letter-spacing="-2">GITVERSE</text>
+  <text x="72" y="402" fill="#36e6dc" font-family="Arial, sans-serif" font-size="62" font-weight="800" letter-spacing="-2">CONNECTOR</text>
+  <text x="74" y="454" fill="#b7d5d9" font-family="Arial, sans-serif" font-size="23">Codex × GitVerse · MCP · REST · Local Bridge</text>
+
+  <g transform="translate(765 132)">
+    <rect x="0" y="40" width="185" height="94" rx="20" fill="#102f3a" stroke="#36e6dc" stroke-width="2"/>
+    <text x="30" y="80" fill="#f4fbff" font-family="Arial, sans-serif" font-size="24" font-weight="700">CODEX</text>
+    <text x="30" y="110" fill="#9ec8cb" font-family="Arial, sans-serif" font-size="17">твой запрос</text>
+    <rect x="333" y="40" width="185" height="94" rx="20" fill="#17392a" stroke="#b3f63d" stroke-width="2"/>
+    <text x="363" y="80" fill="#f4fbff" font-family="Arial, sans-serif" font-size="24" font-weight="700">GITVERSE</text>
+    <text x="363" y="110" fill="#b7d5a7" font-family="Arial, sans-serif" font-size="17">твой код</text>
+    <path d="M205 87h104" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="m303 73 22 14-22 14" fill="none" stroke="#b3f63d" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M333 155H185" stroke="#36e6dc" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+    <path d="m201 141-20 14 20 14" fill="none" stroke="#36e6dc" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(34 192)">
+      <rect width="110" height="47" rx="18" fill="#0e3c45"/><text x="19" y="30" fill="#36e6dc" font-family="Arial, sans-serif" font-size="16" font-weight="700">ФАЙЛЫ</text>
+      <rect x="128" width="130" height="47" rx="18" fill="#213b2a"/><text x="148" y="30" fill="#b3f63d" font-family="Arial, sans-serif" font-size="16" font-weight="700">КОММИТЫ</text>
+      <rect x="276" width="105" height="47" rx="18" fill="#153846"/><text x="297" y="30" fill="#81e7ff" font-family="Arial, sans-serif" font-size="16" font-weight="700">CI/CD</text>
+    </g>
+  </g>
+</svg>
