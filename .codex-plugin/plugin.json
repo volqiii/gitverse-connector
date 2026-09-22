@@ -1,0 +1,28 @@
+{
+  "name": "gitverse-connector",
+  "version": "0.1.0+codex.20260922121004",
+  "description": "Secure GitVerse MCP connector with Direct, REST fallback, and localhost Bridge transports.",
+  "author": {
+    "name": "GitVerse Connector"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "GitVerse Connector",
+    "shortDescription": "GitVerse repositories, code, tasks, merge requests and CI/CD in Codex.",
+    "longDescription": "A least-privilege GitVerse integration that discovers the official GitVerse MCP tools at runtime and uses the Public API only as a read fallback.",
+    "developerName": "GitVerse Connector",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Local Bridge"
+    ],
+    "defaultPrompt": [
+      "Show my GitVerse repositories.",
+      "Read the README from volqi/rhythm on GitVerse.",
+      "Show failed GitVerse CI/CD jobs."
+    ],
+    "brandColor": "#00D6A3"
+  },
+  "mcpServers": "./.mcp.json"
+}
