@@ -1,0 +1,16 @@
+{
+  "name": "gitverse-connector",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Secure Codex MCP connector for GitVerse",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "bridge": "node server/bridge.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
