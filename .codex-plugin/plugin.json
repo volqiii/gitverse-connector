@@ -1,6 +1,6 @@
 {
   "name": "gitverse-connector",
-  "version": "0.1.0+codex.20260922121004",
+  "version": "0.1.0+codex.20260922123019",
   "description": "Secure GitVerse MCP connector with Direct, REST fallback, and localhost Bridge transports.",
   "author": {
     "name": "GitVerse Connector"
@@ -26,3 +26,4 @@
   },
   "mcpServers": "./.mcp.json"
 }
+
