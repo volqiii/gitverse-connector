@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "gitverse-connector": {
+      "command": "node",
+      "args": [
+        "./server/index.js"
+      ],
+      "env": {
+        "GITVERSE_TRANSPORT": "auto"
+      }
+    }
+  }
+}
